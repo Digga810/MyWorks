@@ -240,7 +240,7 @@
     }
 }
 
-@media (max-width:370px) {
+@media (max-width:460px) {
     .header-logo {
         width: 70%;
     }
