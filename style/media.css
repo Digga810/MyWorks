@@ -1,0 +1,380 @@
+@media (max-width:1999px) {
+    .accordion-media {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1400px) {
+    .wave-1 {
+        top: -300px;
+    }
+
+    .wave-2 {
+        top: -50px;
+    }
+
+    .frondend-icon-pos {
+        left: 0;
+    }
+
+    .rectangle {
+        z-index: -1;
+    }
+
+    .footer {
+        margin-top: 70px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:1200px) {
+    .wave-1 {
+        top: -200px;
+    }
+
+    .frondend-right {
+        padding: 20px;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .nav-item .navlink-work {
+        padding: 20px;
+    }
+
+    .works-border {
+        border-radius: 8px 0 0 8px !important;
+    }
+
+    .works-borderr {
+        border-radius: 0 8px 8px 0 !important;
+    }
+
+    .nav-pills {
+        justify-content: center;
+        display: flex !important;
+        flex-direction: row !important;
+        margin-bottom: 20px;
+    }
+
+    .fond-wave {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .frondend-right {
+        margin-top: 15px;
+    }
+
+    .nav-list {
+        align-items: flex-end;
+    }
+
+    .nav-list .nav-item .nav-links-order {
+        margin-right: 0;
+    }
+
+    .frond-end-link {
+        margin: 0 auto 0 auto;
+    }
+
+    .frond-wave {
+        display: none;
+    }
+
+    .works-border {
+        border-radius: 8px 0 0 0 !important;
+    }
+
+    .works-border-3 {
+        border-radius: 0 8px 0 0 !important;
+    }
+
+    .works-border-4 {
+        border-radius: 0 0 0 8px !important;
+    }
+
+    .works-borderr {
+        border-radius: 0 0 8px !important;
+    }
+
+    .footer-list {
+        gap: 25px;
+    }
+
+    .footer-list:nth-of-type(1) {
+        justify-content: end;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-links {
+        margin-left: 25px;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .works-logo {
+        margin-top: 10px;
+    }
+
+    .footer-list-link {
+        font-size: 22px;
+    }
+
+    .footer-list:nth-of-type(1) {
+        margin-right: 120px;
+    }
+
+    .works-text:nth-of-type(2) {
+        display: none;
+    }
+
+    .frond-end-text:nth-of-type(2) {
+        display: none;
+    }
+
+    .slider-left-text {
+        margin-bottom: 5px;
+    }
+
+    .capabilities {
+        margin-top: 30px;
+    }
+
+    .frondend {
+        margin-top: 30px;
+    }
+
+    .work {
+        margin-top: 30px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .nav-list .nav-item .nav-links {
+        font-size: 20px;
+    }
+
+    .nav-list .nav-item .nav-links-order {
+        font-size: 20px;
+    }
+
+    .nav-icon::before {
+        font-size: 25px;
+    }
+
+    .slider-left-logo {
+        font-size: 20px;
+    }
+
+    .slider-left-text {
+        font-size: 30px;
+    }
+
+    .slider-left-link {
+        font-size: 15px;
+    }
+
+    .slider-left-icon-content p {
+        font-size: 15px;
+    }
+
+    .frond-end-text {
+        font-size: 15px;
+    }
+
+    .frond-end-link {
+        font-size: 15px;
+    }
+
+    .capabilities-logo {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .button-item span {
+        font-size: 15px;
+    }
+
+    .accordion-body p {
+        font-size: 15px;
+    }
+
+    .nav-item .navlink-work {
+        padding: 12px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .works-logo {
+        font-size: 20px;
+    }
+
+    .works-text {
+        font-size: 15px;
+    }
+
+    .works-link {
+        font-size: 15px;
+    }
+
+    .footer-list-link {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:350px) {
+    .header-logo {
+        width: 70%;
+    }
+
+    .nav-list .nav-item .nav-links {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .nav-list .nav-item .nav-links-order {
+        padding: 8px;
+    }
+
+    .slider-left-logo {
+        font-size: 15px;
+    }
+
+    .slider-left-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .slider {
+        margin-top: 15px;
+    }
+
+    .nav-list {
+        margin-top: 10px;
+    }
+
+    .slider-left-link {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .slider-left-icon-content img {
+        width: 75%;
+    }
+
+    .slider-left-icon-content p {
+        font-size: 10px;
+    }
+
+    .slider-left-icon {
+        margin-top: 25px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+    }
+
+    .frondend-icon-pos {
+        width: 50%;
+    }
+
+    .frond-end-text {
+        font-size: 10px;
+    }
+
+    .frond-end-link {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .capabilities-logo {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .button-item span {
+        font-size: 12px;
+    }
+
+    .button-item-icon::before {
+        font-size: 20px;
+    }
+
+    .button-item-img {
+        width: 18px;
+        margin-right: 12px;
+    }
+
+    .accordion-body p {
+        font-size: 10px;
+    }
+
+    .accordion-media {
+        height: 310px;
+    }
+
+    .nav-item .navlink-work {
+        padding: 12px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .works-content {
+        padding: 10px;
+    }
+
+    .works-text {
+        font-size: 12px;
+    }
+
+    .works-link {
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+
+    .footer-img a img {
+        width: 75%;
+    }
+
+    .footer-list {
+        gap: 10px;
+    }
+
+    .footer-list:nth-of-type(2) {
+        flex-wrap: wrap;
+        justify-content: end;
+        margin-right: 10px;
+    }
+
+    .footer-list-link {
+        font-size: 14px;
+        line-height: 0px;
+    }
+
+    .footer-list:nth-of-type(1) {
+        margin-right: 20px;
+    }
+
+    .footer-list {
+        margin-bottom: 10px;
+    }
+}
