@@ -377,4 +377,29 @@
     .footer-list {
         margin-bottom: 10px;
     }
+    .works-img{
+        max-height: 240px;
+
+    }
+}
+
+@media (max-width:340px) {
+    .nav-item{
+        width: 50% !important;
+    }
+    .works-border-2{
+        border-radius: 0 8px 0 0 !important;
+    }
+    .works-border-3{
+        border-radius: 0 !important;
+    }
+    .works-border-4{
+        border-radius: 0 !important;
+    }
+    .works-border-5{
+        border-radius: 0 0 0 8px !important;
+    }
+    .works-borderr{
+        border-radius: 0 0 8px 0 !important;
+    }
 }
