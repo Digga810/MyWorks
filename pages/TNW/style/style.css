@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: 15px 0;
+}
+
+.nav-main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link li a {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #3A3838;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.nav-link li a:hover {
+    color: #EF4423;
+}
+
+/* header */
+/* main */
+.main {
+    margin: 36px 0 50px;
+}
+
+/* section-news */
+.section-news {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    width: 350px;
+    height: 386px;
+}
+
+.news h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 19px;
+    color: #FFFFFF;
+    padding: 8px 15px;
+}
+
+.news p {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #EBEBEB;
+    padding: 0 15px 15px;
+}
+
+.bd1 {
+    background: #B71C1C;
+}
+
+.bd2 {
+    background: #6A1B9A;
+}
+
+.bd3 {
+    background: #303F9F;
+}
+
+.bd4 {
+    background: #00695C;
+}
+
+/* section-news */
+/* section-mainnews */
+.section-mainnews {
+    background: #EDEDED;
+}
+
+.section-mainnews h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+    color: #3A3838;
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.content {
+    background: #EDEDED;
+    display: flex;
+}
+
+.content-text h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+    color: #3A3838;
+    padding: 20px 30px 30px;
+}
+
+.content-text p {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    color: #686868;
+    padding: 0 30px 30px;
+}
+
+/* section-mainnews */
+/* main */
+/* footer */
+.footer {
+    background: #3A3838;
+}
+
+.foot-main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0;
+}
+
+.foot-link {
+    display: flex;
+}
+
+.foot-link li a {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.foot-link li a:hover {
+    color: #EF4423;
+}

@@ -1,0 +1,32 @@
+.playstaytion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 500px;
+    background: url('../img/playstaytion.png');
+}
+
+.playstaytion h2 {
+    font-family: 'NotoSans';
+    font-weight: 600;
+    font-size: 48px;
+    color: #313131;
+    margin-top: 20px;
+    margin-right: 209px;
+}
+
+.playstaytion p {
+    font-family: 'NotoSans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #313131;
+    margin-top: 39px;
+    margin-right: 31px;
+    margin-bottom: 116px;
+    width: 450px;
+}
+
+.playstaytion a{
+    margin-right: 160px;
+}
